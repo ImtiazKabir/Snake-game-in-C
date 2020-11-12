@@ -1,2 +1,2 @@
 all:
-	gcc -Wall -Wextra -o main main.c -I/usr/bin/SDL2 -lSDL2 -lSDL2main
+	gcc -std=c99 -Wall -Wextra -o main main.c -lSDL2 -lSDL2main
